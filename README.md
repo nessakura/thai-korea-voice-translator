@@ -813,7 +813,7 @@
                     return '';
                 }
 
-                const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.geminiApiKey}`;
+                const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key=${this.geminiApiKey}`;
                 
                 const prompt = `Translate the following ${sourceLang} text to ${targetLang}. Respond only with the ${targetLang} translation, without any additional comments, prefixes, or explanations, and avoid markdown if possible.
                 
